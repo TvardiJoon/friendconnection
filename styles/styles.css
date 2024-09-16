@@ -1,0 +1,26 @@
+.scrollable-container {
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+.scrollable-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+}
+
+.scrollable-container {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.scrollable-container {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and older Edge */
+}
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+.flex {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
